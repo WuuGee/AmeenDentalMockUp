@@ -373,3 +373,96 @@ footer a:hover {
     height: 52px;
   }
 }
+
+/* Extra mobile responsive - iPhone mini friendly */
+@media (max-width: 390px) {
+  .navbar-brand {
+    font-size: 0.95rem;
+    max-width: 250px;
+    white-space: normal;
+    line-height: 1.2;
+  }
+
+  .navbar-brand-img {
+    width: 34px;
+    height: 34px;
+  }
+
+  .hero-section {
+    padding: 2.5rem 0;
+    text-align: center;
+  }
+
+  .hero-section h1 {
+    font-size: 1.75rem;
+    line-height: 1.2;
+  }
+
+  .hero-section .lead,
+  .hero-section p {
+    font-size: 0.95rem;
+  }
+
+  .hero-image,
+  .about-image,
+  .gallery-card {
+    min-height: 220px;
+  }
+
+  .d-flex.justify-content-between {
+    flex-direction: column;
+    align-items: flex-start !important;
+    gap: 0.5rem;
+  }
+
+  h2 {
+    font-size: 1.45rem;
+    line-height: 1.3;
+  }
+
+  .card,
+  .service-card {
+    padding: 1rem !important;
+  }
+
+  .icon-circle {
+    width: 60px;
+    height: 60px;
+  }
+
+  .service-icon {
+    width: 58px;
+    height: 58px;
+  }
+
+  .team-photo {
+    width: 130px;
+    height: 130px;
+  }
+
+  .location-actions {
+    padding: 1.25rem !important;
+  }
+
+  .location-actions .btn {
+    min-height: 54px;
+    font-size: 0.9rem;
+    padding: 0.75rem 1rem;
+  }
+
+  footer {
+    text-align: center;
+  }
+
+  footer .d-flex {
+    justify-content: center;
+  }
+
+  .whatsapp-float {
+    width: 48px;
+    height: 48px;
+    font-size: 1.35rem;
+    right: 0.85rem;
+    bottom: 0.85rem;
+  }
+}
